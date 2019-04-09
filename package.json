@@ -1,0 +1,24 @@
+{
+  "name": "agent-maruo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "scripts": {
+    "build": "webpack --mode development",
+    "start": "node ./dist/server.js"
+  },
+  "author": "Kosaku Kurino <niconicoclimbing@gmail.com>",
+  "license": "ISC"
+}
